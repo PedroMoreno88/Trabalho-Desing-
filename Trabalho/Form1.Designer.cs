@@ -64,11 +64,11 @@
             // 
             lbl_BemVindo.AutoSize = true;
             lbl_BemVindo.BackColor = Color.Transparent;
-            lbl_BemVindo.Font = new Font("Malgun Gothic Semilight", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_BemVindo.Font = new Font("Century Gothic", 8F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_BemVindo.ForeColor = Color.White;
             lbl_BemVindo.Location = new Point(12, 83);
             lbl_BemVindo.Name = "lbl_BemVindo";
-            lbl_BemVindo.Size = new Size(103, 13);
+            lbl_BemVindo.Size = new Size(121, 16);
             lbl_BemVindo.TabIndex = 2;
             lbl_BemVindo.Text = "Ola Joao, Bem vindo";
             // 
@@ -76,11 +76,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("DejaVu Sans", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Candara", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
             label2.Location = new Point(12, 106);
             label2.Name = "label2";
-            label2.Size = new Size(191, 16);
+            label2.Size = new Size(166, 19);
             label2.TabIndex = 3;
             label2.Text = "Vamos começar o teste";
             // 
@@ -204,6 +204,7 @@
             Controls.Add(label2);
             Controls.Add(lbl_BemVindo);
             Controls.Add(pictureBox2);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
